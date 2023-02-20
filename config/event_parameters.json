@@ -1,0 +1,43 @@
+{
+  "stream_file": "config/Streams.json",
+  "start_time": 0.0,
+  "end_time": 144.0,
+  "timestep": 600,
+  "simulations":  [
+    {
+      "name": "m1p30",
+      "routing_method":  "urbs",
+      "parameters":
+      {
+        "alpha": 0.0054,
+        "exponent": 1.3
+      }
+    },
+    {
+      "name": "m1p00",
+      "routing_method": "urbs",
+      "parameters":
+      {
+        "alpha": 0.1,
+        "exponent": 1.0
+      }
+    },
+    {
+      "name": "m0p80",
+      "routing_method": "rorb",
+      "parameters": {
+        "k_c": 210,
+        "d_ave": 209.92,
+        "exponent": 0.8
+      }
+    },
+    {
+      "name": "m1p06",
+      "routing_method":  "urbs",
+      "parameters":
+      {
+        "alpha": 0.068,
+        "exponent": 1.06
+      }
+    }]
+}
